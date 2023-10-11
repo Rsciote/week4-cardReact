@@ -1,22 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
 
 
     return (
-      <div className="App">
-        <h1>Hello World!</h1>
-        <h1>Welcome to my card</h1>
-        <img src="https://cdn.creatureandcoagency.com/uploads/2021/03/FrogLifecycle_Body_8.png" alt="Frog" />
-        <div className="paragraph">
-          <p>This is a picture of a frog that I found on the internet. It looks really cool, and I thought it would be nice to share.</p>
-        </div>
-        <div class="btn-wrapper">
- <a href="https://hax.psu.edu">
-   <button>Details</button> </a> </div>
-      </div>
-    );
+      <><h1>Sidney Crosby Card</h1><div class="buttons">
+        <button id="cloneButton">Clone Card </button>
+        <button id="toggleColorButton">Toggle Color</button>
+        <button id="changeTextButton">Change Text</button>
+        <button id="deleteCardButton">Delete Card</button>
+        <button details-button>Details</button>
+      </div><div id="card" class="card">
+          <div class="heading">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Sidney_Crosby_2018-12-19_2.jpg">
+
+
+            </img></div>
+
+
+          <section>
+            <h2> Description</h2>
+            <p> Crosby One of the Best Penguins and Hockey Players of all time in all his glory </p>
+          </section>
+        </div></>
+   
+    )
   }
 
 export default App;
